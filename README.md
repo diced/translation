@@ -19,7 +19,7 @@ Here is an example locale json file (locale files should be "<language code>_<CO
 ```js
 const { TranslationHelper, Translation } = require('@dicedtomato/translation');
 
-TranslationHelper.load('./locales');
+TranslationHelper.load('./locales'); // YOU MUST DO THIS BEFORE CREATING A TRANSLATION CLASS!!
 
 const enUS = new Translation() // default en_US
 // or
@@ -29,3 +29,7 @@ console.log(enUS.get('menus.help'))
 // or if you need to pass additional data....
 console.log(enUS.get('menus.help', ['MyUsername', 400]));
 ```
+
+# Documentation
+
+Documentation for the 2 classes Translation, TranslationHelper

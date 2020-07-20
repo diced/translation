@@ -1,0 +1,21 @@
+{
+  "name": "@dicedtomato/translation",
+  "version": "1.0.0",
+  "description": "Translation module to manage locales",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p .",
+    "test": "ts-node src/test"
+  },
+  "keywords": [
+    "translation",
+    "locales",
+    "language"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^14.0.23"
+  }
+}
